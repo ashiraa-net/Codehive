@@ -1,0 +1,48 @@
+<!-- editor.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodeHive - Editor</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <h2>CodeHive - Editor</h2>
+    <a href="dashboard.html">Back to Dashboard</a>
+  </div>
+
+  <div class="editor-layout">
+    <!-- File Explorer -->
+    <div class="file-panel">
+      <h4>Files</h4>
+      <ul>
+        <li>main.py</li>
+        <li>utils.py</li>
+        <li>README.md</li>
+      </ul>
+    </div>
+
+    <!-- Code Editor Area -->
+    <div class="code-panel">
+      <h4>Editor</h4>
+      <textarea placeholder="Write your code here..."></textarea>
+      <button onclick="alert('Code execution is simulated')">▶ Run Code</button>
+      <div class="output-box">
+        <p>// Output will be shown here</p>
+      </div>
+    </div>
+
+    <!-- Chat Panel -->
+    <div class="chat-panel">
+      <h4>Team Chat</h4>
+      <div class="chat-box">
+        <p><strong>Ana:</strong> Let’s finish the login first</p>
+        <p><strong>Ben:</strong> Okay, I’m updating the CSS</p>
+      </div>
+      <input type="text" placeholder="Type a message..." />
+    </div>
+  </div>
+</body>
+</html>
